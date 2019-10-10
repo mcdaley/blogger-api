@@ -1,13 +1,6 @@
 #------------------------------------------------------------------------------
-# config/routes.eb
+# app/serializers/user_serializer.rb
 #------------------------------------------------------------------------------
-Rails.application.routes.draw do
-  
-  namespace :api do
-    namespace :v1 do
-      resources :blogs,   except: [:update]
-    end
-  end
-
+class UserSerializer < ActiveModel::Serializer
+  attributes :id, :first_name, :last_name
 end
-

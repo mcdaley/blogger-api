@@ -1,13 +1,8 @@
 #------------------------------------------------------------------------------
-# config/routes.eb
+# app/serializers/blog_serializer.rb
 #------------------------------------------------------------------------------
-Rails.application.routes.draw do
-  
-  namespace :api do
-    namespace :v1 do
-      resources :blogs,   except: [:update]
-    end
-  end
+class BlogSerializer < ActiveModel::Serializer
+  attributes :id, :title, :summary, :posted
 
+  belongs_to :user
 end
-
