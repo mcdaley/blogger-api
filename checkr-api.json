@@ -1,0 +1,104 @@
+[
+  {
+    "id":       "1",
+    "title":    "Blog Post One",
+    "summary":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "posted":   "2019-10-01",
+    "author": {
+      "id":         "1",
+      "first_name": "Charles",
+      "last_name":  "Dickens"
+    },
+    "comments": [
+      {
+        "id":       "1",
+        "message":  "Comment One",
+        "posted":   "2019-10-02",
+        "commenter": {
+          "id":         "2",
+          "first_name": "Jane",
+          "last_name":  "Austen"
+        }
+      },
+      {
+        "id":       "2",
+        "message":  "Comment Two",
+        "posted":   "2019-10-03",
+        "commenter": {
+          "id":         "3",
+          "first_name": "Joseph",
+          "last_name":  "Conrad"
+        }
+      }
+    ]
+  },
+  {
+    "id":       "2",
+    "title":    "Blog Post Two",
+    "summary":  "Aliquet eget sit amet tellus. Ut etiam sit amet nisl purus in",
+    "posted":   "2019-10-01",
+    "author": {
+      "id":         "2",
+      "first_name": "Jane",
+      "last_name":  "Austen"
+    },
+    "comments": [
+      {
+        "id":      "3",
+        "message": "Comment Three",
+        "posted":  "2019-10-02",
+        "commenter": {
+          "id":         "3",
+          "first_name": "Joseph",
+          "last_name":  "Conrad"
+        }
+      }
+    ]
+  },
+  {
+    "id":       "3",
+    "title":    "Blog Post Three",
+    "summary":  "Augue eget arcu dictum varius duis at. Pulvinar elementum integer enim neque",
+    "posted":   "2019-10-01",
+    "author": {
+      "id":         "4",
+      "first_name": "Thomas",
+      "last_name":  "Hardy"
+    },
+    "comments": [
+    ]
+  },
+  {
+    "id":       "4",
+    "title":    "Blog Post Four",
+    "summary":  "Semper feugiat nibh sed pulvinar proin gravida hendrerit",
+    "posted":   "2019-10-01",
+    "author": {
+      "id":         "4",
+      "first_name": "George",
+      "last_name":  "Eliot"
+    },
+    "comments": [
+      {
+        "id":       "5",
+        "message":  "Comment Five",
+        "posted":   "2019-10-02",
+        "commenter": {
+          "id":         "2",
+          "first_name": "Jane",
+          "last_name":  "Austen"
+        }
+      },
+      {
+        "id":      "6",
+        "message": "Comment Six",
+        "posted":  "2019-10-03",
+        "commenter": {
+          "id":         "1",
+          "first_name": "Charles",
+          "last_name":  "Dickens"
+        }
+      }
+    ]
+  }
+]
