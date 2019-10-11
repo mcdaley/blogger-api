@@ -59,7 +59,7 @@ end
 ## Implements APIs
 Need to think through:
 * Error handling
-* Response codes
+* Response codes!!!
 * Response format, e.g., header + body
 
 ### Get
